@@ -1,0 +1,89 @@
+{
+  "nav": {
+    "home": "首页",
+    "why": "为什么选择IDCHAT",
+    "doc": "文档"
+  },
+  "hero": {
+    "title": "IDCHAT",
+    "subtitle": "基于比特币的去中心化即时通讯应用",
+    "description": "基于比特币的去中心化即时通讯应用"
+  },
+  "features": {
+    "bitcoin": {
+      "title": "运行在比特币上",
+      "description": "所有数据都存储在比特币或其侧链上，不可篡改且由用户拥有"
+    },
+    "privacy": {
+      "title": "安全与隐私",
+      "description": "私密消息使用比特币算法加密，并受到比特币网络安全的保护"
+    }
+  },
+  "download": {
+    "android": "IDChat for Android",
+    "ios": "IDChat for iPhone/iPad",
+    "pc": "IDChat for PC",
+    "alt": {
+      "android": "IDChat Android版",
+      "ios": "IDChat iPhone/iPad版",
+      "pc": "IDChat PC版"
+    }
+  },
+  "images": {
+    "feature": "IDCHAT功能特色",
+    "grid": {
+      "feature1": "无需注册功能",
+      "feature2": "开源协议功能",
+      "feature3": "运行节点功能",
+      "feature4": "去中心化网络功能",
+      "feature5": "比特币安全功能",
+      "feature6": "Web2体验功能"
+    }
+  },
+  "footer": {
+    "poweredBy": "由",
+    "social": {
+      "x": "X社交平台",
+      "idchat": "IDChat应用"
+    }
+  },
+  "modal": {
+    "comingSoon": "敬请期待",
+    "comingSoonMessage": "该功能即将上线，敬请期待！",
+    "ok": "确定"
+  },
+  "whyIdchat": {
+    "title": "为什么选择IDCHAT？",
+    "features": {
+      "noRegistration": {
+        "title": "无需注册",
+        "description": "无需手机、邮箱或KYC验证——只需下载钱包即可立即开始与网络交互。"
+      },
+      "openSource": {
+        "title": "开源协议和节点",
+        "description": "完全透明且可审计；任何人都可以部署节点或检查协议代码，确保真正的去中心化。"
+      },
+      "ownNode": {
+        "title": "运行自己的节点",
+        "description": "运行自己的节点参与网络共识和验证，完全控制自己的数据和连接。"
+      },
+      "decentralized": {
+        "title": "完全去中心化网络",
+        "description": "在没有中心化权威的情况下运行；每个节点都参与治理，保证安全性、自主性和抗审查性。"
+      },
+      "bitcoinSecurity": {
+        "title": "比特币级安全保护",
+        "description": "利用比特币的工作量证明安全性和计算强度，确保交易完整性和防篡改的节点操作。"
+      },
+      "web2Experience": {
+        "title": "如Web2应用般流畅体验",
+        "description": "提供无缝、响应的用户体验，类似于Web2应用，同时保持完全去中心化和安全。"
+      }
+    },
+    "footer": {
+      "poweredByMetaSo": "由MetaSo提供支持",
+      "poweredByMetaId": "由MetaID提供支持",
+      "copyright": "2025 IDchat，保留所有权利。"
+    }
+  }
+}

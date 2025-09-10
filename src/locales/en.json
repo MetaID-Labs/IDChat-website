@@ -1,0 +1,89 @@
+{
+  "nav": {
+    "home": "Home",
+    "why": "Why IDCHAT",
+    "doc": "Doc"
+  },
+  "hero": {
+    "title": "IDCHAT",
+    "subtitle": "A Decentralized Messaging App Built on Bitcoin",
+    "description": "A decentralized instant messaging application based on Bitcoin"
+  },
+  "features": {
+    "bitcoin": {
+      "title": "Run on Bitcoin",
+      "description": "All data is stored on Bitcoin or its sidechains, immutable and owned by the user"
+    },
+    "privacy": {
+      "title": "Safe and Privacy",
+      "description": "Private messages are encrypted using Bitcoin algorithms and are protected by the security of the Bitcoin network"
+    }
+  },
+  "download": {
+    "android": "IDChat for Android",
+    "ios": "IDChat for iPhone/iPad",
+    "pc": "IDChat for PC",
+    "alt": {
+      "android": "IDChat for Android",
+      "ios": "IDChat for iPhone/iPad",
+      "pc": "IDChat for PC"
+    }
+  },
+  "images": {
+    "feature": "IDCHAT Features",
+    "grid": {
+      "feature1": "No Registration Feature",
+      "feature2": "Open Source Feature",
+      "feature3": "Own Node Feature",
+      "feature4": "Decentralized Network Feature",
+      "feature5": "Bitcoin Security Feature",
+      "feature6": "Web2 Experience Feature"
+    }
+  },
+  "footer": {
+    "poweredBy": "Powered by",
+    "social": {
+      "x": "X Social Platform",
+      "idchat": "IDChat Application"
+    }
+  },
+  "modal": {
+    "comingSoon": "Coming Soon",
+    "comingSoonMessage": "This feature is coming soon, stay tuned!",
+    "ok": "OK"
+  },
+  "whyIdchat": {
+    "title": "WHY IDCHAT?",
+    "features": {
+      "noRegistration": {
+        "title": "No Registration Required",
+        "description": "No phone, email, or KYC required – simply download the wallet and start interacting with the network instantly."
+      },
+      "openSource": {
+        "title": "Open-Source Protocol & Nodes",
+        "description": "Fully transparent and auditable; anyone can deploy a node or inspect the protocol code, ensuring true decentralization."
+      },
+      "ownNode": {
+        "title": "Operate Your Own Node",
+        "description": "Run your own node to participate in network consensus and validation, maintaining complete control over your data and connectivity."
+      },
+      "decentralized": {
+        "title": "Fully Decentralized Network",
+        "description": "Operates without centralized authorities; every node contributes to governance, guaranteeing security, autonomy, and censorship resistance."
+      },
+      "bitcoinSecurity": {
+        "title": "Secured by Bitcoin-Level Security",
+        "description": "Leverages Bitcoin's proof-of-work security and computational strength to ensure transaction integrity and tamper-proof node operations."
+      },
+      "web2Experience": {
+        "title": "Smooth Experience Like Web2 Apps",
+        "description": "Delivers a seamless, responsive user experience akin to Web2 apps, while remaining fully decentralized and secure."
+      }
+    },
+    "footer": {
+      "poweredByMetaSo": "Powered by MetaSo",
+      "poweredByMetaId": "Powered by MetaID",
+      "copyright": "2025 IDchat, All Rights Reserved."
+    }
+  }
+}
