@@ -54,7 +54,7 @@
        
 
           <!-- Download Buttons -->
-          <div class="download-buttons-container max-w-[1150px] fade-in" style="animation-delay: 1s;">
+          <div class="download-buttons-container max-w-[1150px] w-[95%] fade-in" style="animation-delay: 1s;">
             <img 
               :src="android" 
               :alt="$t('download.alt.android')" 
@@ -380,8 +380,8 @@ onUnmounted(() => {
   flex-direction: column;
   align-items: center;
   gap: 24px;
-  width: 100%;
-  max-width: 1200px;
+  width: 95%;
+  max-width:1150px;
   margin: 0 auto;
   margin-top: 90px !important;
 }
