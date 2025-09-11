@@ -14,17 +14,18 @@
         </div>
 
         <!-- Desktop Navigation -->
-        <div class="hidden md:flex items-center space-x-8">
+        <div class="text-lg hidden md:flex items-center space-x-8">
           <router-link 
             to="/" 
-            class="text-[#EFF4FC] rounded-2xl hover:text-white hover:bg-[#2b2b2b] header-link font-medium transition-colors duration-200 px-4 py-2"
+            class="text-[#EFF4FC] rounded-3xl hover:text-white hover:bg-[#2b2b2b] header-link font-medium transition-colors duration-200 px-4 py-2"
           >
             {{ $t('nav.home') }}
           </router-link>
           <a 
-            href="#" 
-            class="text-[#EFF4FC] rounded-2xl opacity-80 hover:text-white hover:bg-[#2b2b2b] hover:opacity-100 header-link font-medium transition-colors duration-200 px-4 py-2"
-            @click.prevent
+            href="https://metaid-protocol.gitbook.io/idchat_cn" 
+            target="_blank"
+            class="text-[#EFF4FC] rounded-3xl opacity-80 hover:text-white hover:bg-[#2b2b2b] hover:opacity-100 header-link font-medium transition-colors duration-200 px-4 py-2"
+           
           >
           {{ $t('nav.doc') }} 
           </a>
