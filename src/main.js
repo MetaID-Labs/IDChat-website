@@ -2,11 +2,12 @@ import { createApp } from 'vue'
 import { createI18n } from 'vue-i18n'
 import { createRouter, createWebHistory } from 'vue-router'
 import App from './App.vue'
+
 import './styles/main.scss'
 
 // 导入页面组件
 import HomePage from './views/HomePage.vue'
-
+import Userprivacy from './views/Userprivacy.vue'
 // 导入语言包
 import zh from './locales/zh.json'
 import en from './locales/en.json'
@@ -28,6 +29,11 @@ const routes = [
     path: '/',
     name: 'Home',
     component: HomePage
+  },
+  {
+     path: '/userprivacy/:lang',
+    name: 'Userprivacy',
+    component: Userprivacy
   }
 ]
 
