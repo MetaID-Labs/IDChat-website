@@ -12,6 +12,7 @@ import Userprivacy from './views/Userprivacy.vue'
 import zh from './locales/zh.json'
 import en from './locales/en.json'
 
+
 // 配置i18n
 const i18n = createI18n({
   legacy: false, // 使用 Composition API 模式
@@ -28,13 +29,15 @@ const routes = [
   {
     path: '/',
     name: 'Home',
-    component: HomePage
+    component: HomePage,
+    
   },
-  {
+    {
      path: '/userprivacy/:lang',
     name: 'Userprivacy',
     component: Userprivacy
   }
+
 ]
 
 const router = createRouter({

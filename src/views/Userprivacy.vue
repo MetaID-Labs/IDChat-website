@@ -1,6 +1,6 @@
 <template>
     <div class="container text-gray-200">
-    <header class="text-white mb-14">
+    <header class="flex container-header items-center text-white mb-14">
       <h1 >IDChat Privacy Policy</h1>
       <div class="meta">Last updated: <strong>2025-09-15</strong></div>
     </header>
@@ -135,4 +135,17 @@ code{background:#eef2ff;padding:2px 6px;border-radius:6px;font-family:Menlo,mono
 .meta{font-size:0.95rem;color:var(--muted)}
 footer{font-size:0.9rem;color:var(--muted);text-align:center;margin-top:24px}
 a{color:var(--accent)}
+
+
+@media screen and (max-width:750px) {
+    .container{
+        width: 90%;
+        max-width: 90%;
+        .container-header{
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+        }
+    }
+}
 </style>
