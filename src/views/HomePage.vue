@@ -76,7 +76,7 @@
               :src="pc" 
               :alt="$t('download.alt.pc')" 
               class="download-button-image pc-image cursor-pointer hover:opacity-80 transition-opacity duration-300"
-              @click="showComingSoonModal"
+              @click="toIDChat('pc')"
             />
           </div>
         </div>
@@ -243,7 +243,7 @@
                 
                 <!-- IDChat Button -->
                 <a 
-                  href="https://chat.show.now/" 
+                  href="https://www.idchat.io/chat" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   class="w-10 h-10 bg-[#2b2b2b] rounded-full flex items-center justify-center hover:bg-gray-600 transition-colors"
@@ -362,6 +362,18 @@ const handleScroll = () => {
     }
   }
 }
+
+const toIDChat=(type)=>{
+  switch (type) {
+    case 'pc':
+     window.open(`https://www.idchat.io/chat`, 'blank')
+      return;
+  
+    default:
+      break;
+  }
+}
+
 
 onMounted(() => {
   window.addEventListener('scroll', handleScroll)
